@@ -2,6 +2,9 @@ import streamlit as st
 
 import json
 
+st.title("Mostafa Samir Yehia Saad - Group A - ID: 4211247")
+st.title("example of Array ")
+
 with open("data/array.json", "r") as file:
     data = json.load(file)
 
